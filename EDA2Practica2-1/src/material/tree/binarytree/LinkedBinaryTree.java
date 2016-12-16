@@ -471,7 +471,7 @@ public class LinkedBinaryTree<E> implements BinaryTree<E> {
                 parent.setRight(null);
             }
         }else{
-            newTree = this;//.subTree(v);
+            newTree = this;
         }
         return newTree;
     }
